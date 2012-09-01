@@ -24,6 +24,21 @@ Currently only two methods are implemented:
 * `s_list`: Lists all constraints of the current constraint store.
 * `s_stop`: Stops the prompt loop.
 
+## Example
+
+```
+?- main.
+[CHRstore] ?- gcd(18), north, min(3), west, east, min(1), gcd(12).
+[CHRstore] ?- s_list.
+[CHRstore] Stored constraints:
+gcd(6)
+min(1)
+north
+[CHRstore] ?- s_stop.
+[CHRstore] Stopped.
+true .
+```
+
 ## ToDo
 
 * Delete single constraints
