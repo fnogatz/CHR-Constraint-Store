@@ -34,6 +34,11 @@ Currently only two methods are implemented:
 gcd(6)
 min(1)
 north
+[CHRstore] ?- gcd(16), south, min(1).
+[CHRstore] ?- s_list.
+[CHRstore] Stored constraints:
+gcd(2)
+min(1)
 [CHRstore] ?- s_stop.
 [CHRstore] Stopped.
 true .
