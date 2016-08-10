@@ -1,6 +1,6 @@
 # CHR Constraint Store
 
-Module to use Prolog as an incremental constraint store for Constraint Handling Rules (CHR). While basic Prolog implementations support only one time only queries, i.e. you can't access the resulted constraint store of a previous query, this adds the functionality of an online constraint store.
+Module to use Prolog as an incremental constraint store for Constraint Handling Rules (CHR). While basic Prolog implementations support only one-time-only queries, i.e. you can't access the resulted constraint store of a previous query, this adds the functionality of an online constraint store. You can find some background information in the [Wiki](https://github.com/fnogatz/CHR-Constraint-Store/wiki/Blog-Post:-Background).
 
 ## Usage
 
